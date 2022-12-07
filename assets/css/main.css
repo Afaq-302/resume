@@ -1,7 +1,7 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
 @import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
 @import url(https://fonts.googleapis.com/css?family=Rubik);
-
 html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
@@ -216,16 +216,17 @@ template {
     display: none
 }
 
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
+
 @-webkit-keyframes fa-spin {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg)
     }
-
     to {
         -webkit-transform: rotate(359deg);
         transform: rotate(359deg)
@@ -237,7 +238,6 @@ template {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg)
     }
-
     to {
         -webkit-transform: rotate(359deg);
         transform: rotate(359deg)
@@ -245,7 +245,6 @@ template {
 }
 
 @-webkit-keyframes pulse {
-
     0%,
     to {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -253,7 +252,6 @@ template {
         opacity: .4;
         top: 0
     }
-
     50% {
         -ms-filter: none;
         -webkit-filter: none;
@@ -264,7 +262,6 @@ template {
 }
 
 @keyframes pulse {
-
     0%,
     to {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -272,7 +269,6 @@ template {
         opacity: .4;
         top: 0
     }
-
     50% {
         -ms-filter: none;
         -webkit-filter: none;
@@ -4827,14 +4823,13 @@ a img {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2B32B2, #1488CC);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     display: flex;
     vertical-align: bottom;
     width: 100%;
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed
+    background-attachment: fixed;
 }
 
 #particles-js .particles-js-canvas-el {
@@ -4999,6 +4994,15 @@ a img {
     font-size: 16px
 }
 
+.my-pic {
+    transition: 0.25s all;
+}
+
+.my-pic:hover {
+    cursor: pointer;
+    box-shadow: 1px 2px 25px rgba(67, 67, 67, 0.551);
+}
+
 @media only screen and (min-width:550px) {
     .user {
         flex-wrap: nowrap;
@@ -5054,27 +5058,22 @@ a img {
         margin-left: 0;
         width: 48%
     }
-
     .contents,
     .contents-right {
         margin-top: -5%
     }
-
     .contents-right,
     .images-right {
         float: right;
         width: 48%
     }
-
     .images-right img {
         float: right
     }
-
     .images-left {
         float: left;
         width: 48%
     }
-
     .images-left img {
         float: left
     }
